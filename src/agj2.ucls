@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="jugadores.Jugador" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/Jugador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="447" y="114"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="jugadores.JugadorEvaluar" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/JugadorEvaluar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="451" y="270"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="jugadores.Evaluador" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/Evaluador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="921" y="269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="mundosolitario.OverrideHashCode" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/mundosolitario/OverrideHashCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1221" y="77"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="jugadores.EvaluadorEntrenable" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/EvaluadorEntrenable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="919" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="jugadores.EvaluadorAproxLineal" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/EvaluadorAproxLineal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="725" y="665"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="jugadores.EvaluadorTV" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/EvaluadorTV.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1212" y="646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="jugadores.JugadorEntrenable" project="CodigoAlumnosPracticas2018" 
+    file="/CodigoAlumnosPracticas2018/src/jugadores/JugadorEntrenable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="448" y="458"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="evaluador">        
+        <position height="0" width="0" x="-708" y="-144"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-708" y="-144"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

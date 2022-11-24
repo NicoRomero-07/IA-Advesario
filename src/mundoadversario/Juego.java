@@ -50,7 +50,7 @@ public class Juego<E extends EstadoJuego<E>, J1 extends Jugador<E>, J2 extends J
             }
         }
         System.out.format("%10s %10s %10s",
-                victorias1*100.0/n, victorias2*100.0/n, empates*100.0/n);
+                victorias1*100.0/n,empates*100.0/n,victorias2*100.0/n);
         System.out.println();
 
     }

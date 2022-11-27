@@ -42,9 +42,10 @@ public class Raton extends OverrideHashCode implements EstadoJuegoAprox<Raton> {
     }
     public int numGatosColumnaRaton(){
         int filaRaton = fRaton();
+        int columnaRaton = cRaton();
         int cont = 0;
         for(int i = 0; i < filaRaton; i++){
-            if(tablero[i][1] == 'G') cont++;
+            if(tablero[i][columnaRaton] == 'G') cont++;
         }
         return cont;
     }

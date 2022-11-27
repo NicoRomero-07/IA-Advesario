@@ -4,17 +4,19 @@ import jugadores.Evaluador;
 
 public class EvaluadorRaton extends Evaluador<Raton> {
 
+    private double T;
+
+    public EvaluadorRaton(double T){
+        super();
+        this.T = T;
+    }
     @Override
     protected double evaluacion(Raton estado, boolean miTurno) {
-        double T;
-        if(miTurno) T = 1;
-        else T = -1;
-
         return T * (nDelante(estado) + distRaton(estado));
     }
 
     private double distRaton(Raton estado) {
-        return estado.n() - estado.fRaton() - 1;
+        return estado.fRaton();
     }
 
     private double nDelante(Raton estado) {

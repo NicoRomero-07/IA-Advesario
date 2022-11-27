@@ -20,7 +20,7 @@ public class TestRaton {
         JugadorAleatorio<Raton> jugadorAleatorio2 = new JugadorAleatorio<Raton>();
         jugarTorneo(jugadorAleatorio, jugadorAleatorio2, r, 1000);
 
-        EvaluadorRaton evaluadorRaton = new EvaluadorRaton();
+        EvaluadorRaton evaluadorRaton = new EvaluadorRaton(1);
         System.out.format("%30s", "Aleatorio vs Evaluar");
         JugadorAleatorio<Raton> jugadorAleatorio3 = new JugadorAleatorio<Raton>();
         JugadorEvaluar<Raton> jugadorEvaluar = new JugadorEvaluar<Raton>(evaluadorRaton);
